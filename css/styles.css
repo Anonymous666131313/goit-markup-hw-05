@@ -664,8 +664,9 @@ letter-spacing: 0.04em;
   fill: transparent;
 }
 
- .user-privacy-input[type="checkbox"]:checked .user-privacy-span { 
-background-color: #404bbf;
+
+
+    .user-privacy-input:checked+.user-privacy-input>span {
+      background-color: #404bbf;
 border: none;
-fill: #F4F4FD;
- }
+fill: #F4F4FD;  }

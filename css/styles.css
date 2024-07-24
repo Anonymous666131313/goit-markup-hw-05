@@ -648,11 +648,12 @@ letter-spacing: 0.04em;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  display:block;
 
 }
 
 
-.user-privacy-span { 
+.user-privacy-span  { 
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -663,10 +664,10 @@ letter-spacing: 0.04em;
   justify-content: center;
   fill: transparent;
 }
+    
 
-
-
-    .user-privacy-input:checked+.user-privacy-input>.user-privacy-span {
-      background-color: #404bbf;
-border: none;
-fill: #F4F4FD;  }
+.user-privacy-input:checked + .user-privacy-label span{ 
+  background-color: #404bbf;
+  border: none;
+    fill: #F4F4FD;
+}

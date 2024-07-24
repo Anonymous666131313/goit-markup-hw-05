@@ -666,7 +666,7 @@ letter-spacing: 0.04em;
 
 
 
-    .user-privacy-input:checked+.user-privacy-input>span {
+    .user-privacy-input:checked+.user-privacy-input>.user-privacy-span {
       background-color: #404bbf;
 border: none;
 fill: #F4F4FD;  }

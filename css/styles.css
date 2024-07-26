@@ -674,13 +674,14 @@ fill:#F4F4FD
   fill: #2e2f42;
 }
 
-     .form-input-icon:focus+.form-svg-icon {
+     .form-input-icon:focus {
   fill: #4D5AE5;
 }
 
-   .form-input-icon:focus {
-  border-color: #4d5ae5;
+   
     
+.form-input-icon:focus~.form-svg-icon {
+  fill: #4D5AE5;
 }
  
 .form-div-comment { 
